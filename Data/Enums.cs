@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DamageCalcManager.Data
 {
-    class Enums
-    {
-    }
+    enum Type { Normal = 0, Fighting, Flying, Poison, Ground, Rock, Bug, Ghost, Steel, Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Dark, Fairy}
+    enum Category { Physical = 0, Special, Status }
+
 }
